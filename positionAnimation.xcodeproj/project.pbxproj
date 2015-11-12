@@ -26,6 +26,9 @@
 		F19CAA741BE1216E00F9D6C3 /* easeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CAA731BE1216E00F9D6C3 /* easeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		F19CAA761BE123E300F9D6C3 /* springViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CAA751BE123E300F9D6C3 /* springViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		F19CAA781BE25CD800F9D6C3 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19CAA771BE25CD800F9D6C3 /* loginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1CC8BDE1BF384AC00673347 /* DynamicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC8BDD1BF384AC00673347 /* DynamicsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1CC8BE01BF38C9B00673347 /* DynamicKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CC8BDF1BF38C9B00673347 /* DynamicKit.storyboard */; settings = {ASSET_TAGS = (); }; };
+		F1CC8BE21BF4871900673347 /* lineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC8BE11BF4871900673347 /* lineLayer.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		F19CAA731BE1216E00F9D6C3 /* easeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = easeViewController.swift; sourceTree = "<group>"; };
 		F19CAA751BE123E300F9D6C3 /* springViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = springViewController.swift; sourceTree = "<group>"; };
 		F19CAA771BE25CD800F9D6C3 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		F1CC8BDD1BF384AC00673347 /* DynamicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicsViewController.swift; sourceTree = "<group>"; };
+		F1CC8BDF1BF38C9B00673347 /* DynamicKit.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DynamicKit.storyboard; sourceTree = "<group>"; };
+		F1CC8BE11BF4871900673347 /* lineLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lineLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,9 @@
 				F19CAA3D1BDFB41600F9D6C3 /* Main.storyboard */,
 				F194ACB11BE4A2CB005753B7 /* loginLayOut.storyboard */,
 				F194ACB31BE4A58B005753B7 /* LoginLayoutViewController.swift */,
+				F1CC8BDF1BF38C9B00673347 /* DynamicKit.storyboard */,
+				F1CC8BDD1BF384AC00673347 /* DynamicsViewController.swift */,
+				F1CC8BE11BF4871900673347 /* lineLayer.swift */,
 				F19CAA401BDFB41700F9D6C3 /* Assets.xcassets */,
 				F19CAA421BDFB41700F9D6C3 /* LaunchScreen.storyboard */,
 				F19CAA451BDFB41700F9D6C3 /* Info.plist */,
@@ -267,6 +276,7 @@
 				F194ACB21BE4A2CB005753B7 /* loginLayOut.storyboard in Resources */,
 				F19CAA441BDFB41700F9D6C3 /* LaunchScreen.storyboard in Resources */,
 				F19CAA411BDFB41700F9D6C3 /* Assets.xcassets in Resources */,
+				F1CC8BE01BF38C9B00673347 /* DynamicKit.storyboard in Resources */,
 				F19CAA3F1BDFB41600F9D6C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1CC8BDE1BF384AC00673347 /* DynamicsViewController.swift in Sources */,
 				F19CAA701BE10D3000F9D6C3 /* RepeatViewController.swift in Sources */,
 				F194ACB61BE4EE76005753B7 /* MainTableViewController.swift in Sources */,
 				F19CAA781BE25CD800F9D6C3 /* loginViewController.swift in Sources */,
@@ -304,6 +315,7 @@
 				F194ACB41BE4A58B005753B7 /* LoginLayoutViewController.swift in Sources */,
 				F19CAA6A1BDFC45F00F9D6C3 /* opacityViewController.swift in Sources */,
 				F19CAA3A1BDFB41600F9D6C3 /* AppDelegate.swift in Sources */,
+				F1CC8BE21BF4871900673347 /* lineLayer.swift in Sources */,
 				F19CAA761BE123E300F9D6C3 /* springViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

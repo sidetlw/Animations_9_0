@@ -29,7 +29,7 @@ class MainTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 2
+        return 3
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -39,6 +39,9 @@ class MainTableViewController: UITableViewController {
         }
         else if section == 1 {
             return 2
+        }
+        else if section == 2 {
+            return 1
         }
         
         return 0
